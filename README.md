@@ -232,6 +232,22 @@ El proyecto está desarrollado con **Python 3** y **Django REST Framework**, uti
 | `id` | Gestión |{"msg": "", "status": 200, "data": {}} |
 
 
+## Usuarios para pruebas
+
+con el siguiente usuario podra realizar el login y realizar las pruebas pertinentes
+
+```bash
+{
+    "username": "admin",
+	"password": "Adminpass123"
+}
+```
+depues de realizado obtendra el token, cada vez que lo use debe ir antes la palabra Bearer
+
+```bash
+Bearer token 
+```
+
 ## Documentation
 
 [Documentation swagger](http://localhost:8000/swagger/)
